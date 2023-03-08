@@ -2,10 +2,7 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    path.join(__dirname, "src/**/*.{js,ts,jsx,tsx}"),
-    path.join(__dirname, "./index.html"),
-  ],
+  content: ["src/**/*.{js,ts,jsx,tsx}", "./index.html"],
   theme: {
     screens: {},
     extend: {
